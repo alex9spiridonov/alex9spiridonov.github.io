@@ -108,11 +108,11 @@ h5 {
 	height: 57px;
 	padding-left: 18px;
 	padding-right: 18px;
-	
+
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease; 
+	transition: all 0.5s ease;
 }
 
 
@@ -139,12 +139,12 @@ section {
 	background: url(../images/body-bg1.png) repeat 0 0;
 	height: 100vh;
 	width: 100% !important;
-	padding: 0px;	
+	padding: 0px;
 	z-index: 998;
 }
 
 #header .col-md-8 {
-	top: 20%;
+	top: 3%;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -174,14 +174,14 @@ section {
 	text-align: center;
 	font-size: 48px;
 	color: #fff;
-	
+
 	-webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
 	-moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
 	animation: leweb_fade_move_down 2s ease-in-out infinite;
    }
 
 	/* Animated Arrow Down Header */
-	
+
 @-webkit-keyframes leweb_fade_move_down {
   0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
   50%  { opacity: 1;  }
@@ -230,7 +230,7 @@ section {
 	line-height: 65px;
 	height: 65px;
 	width: 65px;
-	background: rgba(0, 142, 214, 0.7);	
+	background: rgba(0, 142, 214, 0.7);
 	box-shadow: 0 0 0 1px #008ed6;
 }
 
@@ -332,28 +332,28 @@ section {
 /* RESPONSIVE DESIGN */
 
 /* Extra Small devices (tablets, 446px and less) */
-@media (max-width: 456px) { 
-	
+@media (max-width: 456px) {
+
 	#mc_form .form-control {
 		width: 100%;
 		margin-bottom: 15px;
 	}
-	
+
 	.button-leweb {
 		width: 100%;
 	}
-	
+
 	#header .logo {
 		width: 200px;
 	}
-	
+
 	#header h1 {
 		display: none;
 	}
 
 }
 /* Small devices (tablets, 768px and less) */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
 	body {
 		font-size: 14px;
@@ -383,7 +383,7 @@ section {
 		font-size: 14px;
 		line-height: 20px;
 	}
-	
+
 	.clocktitle{
 		font-size: 11px;
 	}
@@ -391,18 +391,17 @@ section {
 	.numbers {
 		font-size: 44px;
 	}
-	
+
 	#header .col-md-8 {
 		top: 5%;
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px) {	
-	
+@media (max-width: 992px) {
+
 	#about .middle {
 		margin-top: 65px;
 		margin-bottom: 65px;
 	}
 }
-
